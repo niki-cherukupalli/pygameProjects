@@ -14,6 +14,7 @@ pygame.display.set_caption("Trying Drap and Drop")
 activeSprite = None #what sprite has been clicked on
 
 #create a bunch of boxes/rectangles and put in a list
+
 boxes = []
 for i in range(10):
     x = random.randint(50, 700)
